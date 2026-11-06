@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólió</title>
+</head>
+<style>
+        
+    body {
+        font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    }
+
+        body {
+            background-color: #fffaeb;
+            font-family: Arial, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #62c46f;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #093a09; 
+        }
+        h1 {
+            color: #271904;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 550px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .portfolio-kontener {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1a0b01;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .kartyak-tarolo {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .kartya {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            flex: 1;
+            text-align: center;
+            padding-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+        .kartya:hover {
+            transform: translateY(-5px);
+        }
+        .kartya img {
+            width: 100%;
+            aspect-ratio: 4 / 3; 
+            object-fit: contain; 
+            background-color: #f8f9fa; 
+            margin-bottom: 15px;
+        }
+
+        .kartya h3 {
+            color: #1e330d;
+            margin: 10px 15px;
+        }
+
+        .kartya p {
+            font-size: 15px;
+            color: #666;
+            margin: 0 15px;
+            line-height: 1.5;
+        }
+</style>
+<body>
+
+    <nav>
+        <a href="index.html">Főoldal</a> | 
+        <a href="bemutatkozas.html">Bemutatkozás</a> | 
+        <a href="portfolio.html">Portfólió</a> | 
+        <a href="elerhetosegek.html">Elérhetőségek</a>
+    </nav>
+
+    <h1>Portfólió</h1>
+    <p></p>
+    <div class="portfolio-kontener">
+ 
+        <h1>A munkáim</h1>
+
+        <div class="kartyak-tarolo">
+            
+            <div class="kartya">
+                <img src="kép/projekt1.jpg" alt="Első projekt kép">
+                <h3>Portré</h3>
+                <p>Vízfesték</p>
+            </div>
+
+            <div class="kartya">
+                <img src="kép/projekt2.jpg" alt="Második projekt kép">
+                <h3>Nyuszi</h3>
+                <p>Ehető hozzávalók</p>
+            </div>
+
+            <div class="kartya">
+                <img src="kép/projekt3.jpg" alt="Harmadik projekt kép">
+                <h3>Plakát</h3>
+                <p>Digitális teknikák</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
